@@ -7,13 +7,14 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     background-color: black;
+    height: 100vh !important;
+    margin: 0;
 }
 
 
 main {
-    flex: 1; /* Ocupa todo o espaço restante */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,16 +46,12 @@ input {
     margin-left: 10px;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh !important;/* Faz com que o body ocupe toda a altura da viewport */
-    margin: 0;
-}
-
-main {
-    flex: 1; /* Ocupa todo o espaço restante */
-    /* Estilos do conteúdo */
+.mode-toggle{
+	cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin-left: 10px;
 }
 
 footer {
