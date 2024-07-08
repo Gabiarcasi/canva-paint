@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+}
+
+
+main {
+    flex: 1; /* Ocupa todo o espaço restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    background-color: white;
+    cursor: crosshair;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+	gap: 10px; /* Espaço entre os elementos */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin-left: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh !important;/* Faz com que o body ocupe toda a altura da viewport */
+    margin: 0;
+}
+
+main {
+    flex: 1; /* Ocupa todo o espaço restante */
+    /* Estilos do conteúdo */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+
